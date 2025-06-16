@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://example-fp-website.vercel.app'),
+  metadataBase: new URL('https://example.yuikosuke-website.vercel.app'),
   title: {
     template: '%s | 田中太郎',
     default: '田中太郎 | ファイナンシャルプランナー'
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
-    url: 'https://example-fp-website.vercel.app',
+    url: 'https://example.yuikosuke-website.vercel.app',
     title: '田中太郎 | ファイナンシャルプランナー',
     description: 'ファイナンシャルプランナー田中太郎の公式サイト。保険・資産形成・事業保障までトータルにサポート。',
     siteName: '田中太郎 FP事務所',

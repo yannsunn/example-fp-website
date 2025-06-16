@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '田中太郎 | ファイナンシャルプランナー',
     description: '保険・資産形成・事業保障までトータルにサポート。一人ひとりの人生に「安心」と「希望」を届けます。',
-    url: 'https://example-fp-website.vercel.app',
+    url: 'https://example.yuikosuke-website.vercel.app',
     siteName: '田中太郎 FP事務所',
     type: 'website',
     locale: 'ja_JP',
