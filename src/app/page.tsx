@@ -8,13 +8,13 @@ import '../styles/index.css'
 
 export const metadata: Metadata = {
   title: 'ホーム',
-  description: 'ファイナンシャルプランナー油井宏介の公式サイト。保険・資産形成・事業保障までトータルにサポートし、一人ひとりの人生に「安心」と「希望」を届けます。',
+  description: 'ファイナンシャルプランナー田中太郎の公式サイト。保険・資産形成・事業保障までトータルにサポートし、一人ひとりの人生に「安心」と「希望」を届けます。',
   keywords: ['ファイナンシャルプランナー', '保険相談', '資産形成', '無料相談'],
   openGraph: {
-    title: '油井宏介 | ファイナンシャルプランナー',
+    title: '田中太郎 | ファイナンシャルプランナー',
     description: '保険・資産形成・事業保障までトータルにサポート。一人ひとりの人生に「安心」と「希望」を届けます。',
-    url: 'https://yuikosuke-website.vercel.app',
-    siteName: '油井宏介 FP事務所',
+    url: 'https://example-fp-website.vercel.app',
+    siteName: '田中太郎 FP事務所',
     type: 'website',
     locale: 'ja_JP',
   },
@@ -33,8 +33,8 @@ export default function HomePage() {
           <div className="hero-container">
             <div className="hero-image-modern">
               <Image 
-                src="/yuikosuke.jpg" 
-                alt="ファイナンシャルプランナー油井宏介のプロフィール写真" 
+                src="/placeholder.jpg" 
+                alt="ファイナンシャルプランナー田中太郎のプロフィール写真" 
                 width={280}
                 height={380}
                 className="hero-photo-modern animated-hero-photo"
@@ -146,15 +146,15 @@ export default function HomePage() {
                 <div className="result">年間保険料 <strong>18万円削減</strong></div>
               </div>
               <div className="quote">「複雑な保険の見直しをとてもわかりやすく説明してくれました。本当に必要な保障だけに絞り込んでいただき、無駄な保険料を大幅に削減できて感謝しています。浮いたお金で子どもの習い事を始めることができました！」</div>
-              <div className="author">東京都 40代 会社員 T.S様</div>
+              <div className="author">東京都 40代 会社員 A様</div>
             </div>
             <div className="testimonial highlighted">
               <div className="testimonial-header">
                 <div className="stars">⭐⭐⭐⭐⭐</div>
                 <div className="result">事業リスク <strong>完全対策</strong></div>
               </div>
-              <div className="quote">「事業保障について相談しましたが、自分では全く気づかなかったリスクまで丁寧に指摘・対策してくれて本当に助かりました。これで安心して事業に専念できます。油井さんに相談して本当に良かったです。」</div>
-              <div className="author">神奈川県 50代 経営者 K.M様</div>
+              <div className="quote">「事業保障について相談しましたが、自分では全く気づかなかったリスクまで丁寧に指摘・対策してくれて本当に助かりました。これで安心して事業に専念できます。田中さんに相談して本当に良かったです。」</div>
+              <div className="author">神奈川県 50代 経営者 B様</div>
             </div>
             <div className="testimonial highlighted">
               <div className="testimonial-header">
@@ -162,13 +162,13 @@ export default function HomePage() {
                 <div className="result">教育資金 <strong>800万円確保</strong></div>
               </div>
               <div className="quote">「子どもの教育資金について相談したところ、具体的な数字とプランを提示してくれて、将来への不安が完全に解消されました。20年後まで見通せるプランで、夫婦ともに安心して子育てに集中できています。」</div>
-              <div className="author">埼玉県 30代 共働き夫婦 Y.T様</div>
+              <div className="author">埼玉県 30代 共働き夫婦 C様</div>
             </div>
           </div>
         </section>
 
         <section className="about fadein-section">
-          <h2>ファイナンシャルプランナー 油井宏介について</h2>
+          <h2>ファイナンシャルプランナー 田中太郎について</h2>
           <div className="profile-content">
             <div className="profile-credentials">
               <h3>🏆 保有資格・実績</h3>
@@ -228,7 +228,7 @@ export default function HomePage() {
           </div>
           <div className="cta-buttons">
             <CTAButton variant="line" href="/contact">LINEで相談</CTAButton>
-            <CTAButton variant="mail" href="mailto:kosuke.yui@brightreach.co.jp" external>メールで問い合わせ</CTAButton>
+            <CTAButton variant="mail" href="mailto:sample@example.com" external>メールで問い合わせ</CTAButton>
           </div>
         </section>
       </main>

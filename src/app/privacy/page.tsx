@@ -61,7 +61,7 @@ export default function PrivacyPage() {
         <section className="policy-lead fadein-section">
           <h2>個人情報保護方針</h2>
           <p>
-            <b>このサイトは油井宏介が運営しています。</b><br/>
+            <b>このサイトは田中太郎が運営しています。</b><br/>
             当サイトでは、お客様の個人情報の保護に万全を尽くします。<br/>
             ウェブサイトおよび各種サービスのご利用に際してお預かりする個人情報について、以下の方針に従い適切に取り扱います。
           </p>

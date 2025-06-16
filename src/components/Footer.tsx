@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-logo">
           <h3>FP Office</h3>
-          <p>ファイナンシャルプランナー 油井宏介</p>
+          <p>ファイナンシャルプランナー 田中太郎</p>
         </div>
         <div className="footer-links">
           <Link href="/">トップ</Link>
@@ -17,7 +17,7 @@ export default function Footer() {
         </div>
         <div className="footer-contact">
           <p>東京都・神奈川県を中心にサポート</p>
-          <p>kosuke.yui@brightreach.co.jp</p>
+          <p>sample@example.com</p>
         </div>
       </div>
       <div className="footer-bottom">

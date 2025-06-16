@@ -26,14 +26,14 @@ export default function ContactPage() {
             <h3>メールで問い合わせ</h3>
             <div className="contact-content">
               <p className="mail-address">
-                <a href="mailto:kosuke.yui@brightreach.co.jp" className="mail-link">kosuke.yui@brightreach.co.jp</a>
+                <a href="mailto:sample@example.com" className="mail-link">sample@example.com</a>
               </p>
               <p className="mail-description">
                 お名前・ご連絡先・ご用件を明記の上、ご送信ください。<br/>
                 通常1～2営業日以内にご返信いたします。
               </p>
             </div>
-            <CTAButton variant="mail" href="mailto:kosuke.yui@brightreach.co.jp" external>
+            <CTAButton variant="mail" href="mailto:sample@example.com" external>
               メールで問い合わせる
             </CTAButton>
           </div>
@@ -45,7 +45,7 @@ export default function ContactPage() {
                 ご質問やご相談など、お気軽にメッセージをお送りください。
               </p>
             </div>
-            <CTAButton variant="line" href="https://line.me/R/ti/p/@your-line-id" external>
+            <CTAButton variant="line" href="https://line.me/R/ti/p/@example-line-id" external>
               LINEで相談
             </CTAButton>
           </div>

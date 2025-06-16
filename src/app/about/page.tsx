@@ -20,7 +20,7 @@ export default function AboutPage() {
           <div className="hero-container">
             <div className="hero-image-modern">
               <Image 
-                src="/yuikosuke.jpg" 
+                src="/placeholder.jpg" 
                 alt="プロフィール写真" 
                 width={280}
                 height={380}
@@ -29,7 +29,7 @@ export default function AboutPage() {
               />
             </div>
             <div className="hero-text">
-              <h2>油井宏介</h2>
+              <h2>田中太郎</h2>
               <p>ファイナンシャルプランナー</p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function AboutPage() {
           <p>初回相談は無料です。あなたの「安心」と「希望」のある未来のために、まずは気軽にご連絡ください。</p>
           <div className="cta-buttons">
             <CTAButton variant="line" href="/contact">LINEで相談</CTAButton>
-            <CTAButton variant="mail" href="mailto:kosuke.yui@brightreach.co.jp" external>メールで問い合わせ</CTAButton>
+            <CTAButton variant="mail" href="mailto:sample@example.com" external>メールで問い合わせ</CTAButton>
           </div>
         </section>
       </main>

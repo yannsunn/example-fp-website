@@ -2,16 +2,16 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://yuikosuke-website.vercel.app'),
+  metadataBase: new URL('https://example-fp-website.vercel.app'),
   title: {
-    template: '%s | 油井宏介',
-    default: '油井宏介 | ファイナンシャルプランナー'
+    template: '%s | 田中太郎',
+    default: '田中太郎 | ファイナンシャルプランナー'
   },
-  description: 'ファイナンシャルプランナー油井宏介の公式サイト。保険・資産形成・事業保障までトータルにサポートし、一人ひとりの人生に「安心」と「希望」を届けます。',
-  keywords: ['ファイナンシャルプランナー', '保険', '資産形成', '事業保障', '油井宏介', 'FP', '資産運用', 'ライフプラン'],
-  authors: [{ name: '油井宏介' }],
-  creator: '油井宏介',
-  publisher: '油井宏介',
+  description: 'ファイナンシャルプランナー田中太郎の公式サイト。保険・資産形成・事業保障までトータルにサポートし、一人ひとりの人生に「安心」と「希望」を届けます。',
+  keywords: ['ファイナンシャルプランナー', '保険', '資産形成', '事業保障', '田中太郎', 'FP', '資産運用', 'ライフプラン'],
+  authors: [{ name: '田中太郎' }],
+  creator: '田中太郎',
+  publisher: '田中太郎',
   robots: {
     index: true,
     follow: true,
@@ -26,15 +26,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
-    url: 'https://yuikosuke-website.vercel.app',
-    title: '油井宏介 | ファイナンシャルプランナー',
-    description: 'ファイナンシャルプランナー油井宏介の公式サイト。保険・資産形成・事業保障までトータルにサポート。',
-    siteName: '油井宏介 FP事務所',
+    url: 'https://example-fp-website.vercel.app',
+    title: '田中太郎 | ファイナンシャルプランナー',
+    description: 'ファイナンシャルプランナー田中太郎の公式サイト。保険・資産形成・事業保障までトータルにサポート。',
+    siteName: '田中太郎 FP事務所',
   },
   twitter: {
     card: 'summary_large_image',
-    title: '油井宏介 | ファイナンシャルプランナー',
-    description: 'ファイナンシャルプランナー油井宏介の公式サイト。',
+    title: '田中太郎 | ファイナンシャルプランナー',
+    description: 'ファイナンシャルプランナー田中太郎の公式サイト。',
   },
   other: {
     'apple-mobile-web-app-capable': 'yes',

@@ -53,7 +53,7 @@ export default function ServicesPage() {
           <p>初回相談は無料です。あなたの「安心」と「希望」のある未来のために、まずは気軽にご連絡ください。</p>
           <div className="cta-buttons">
             <CTAButton variant="line" href="/contact">LINEで相談</CTAButton>
-            <CTAButton variant="mail" href="mailto:kosuke.yui@brightreach.co.jp" external>メールで問い合わせ</CTAButton>
+            <CTAButton variant="mail" href="mailto:sample@example.com" external>メールで問い合わせ</CTAButton>
           </div>
         </section>
       </main>
